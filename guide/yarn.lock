@@ -207,7 +207,7 @@
     "@jridgewell/trace-mapping" "^0.3.25"
     jsesc "^2.5.1"
 
-"@babel/helper-annotate-as-pure@^7.18.6", "@babel/helper-annotate-as-pure@^7.24.7":
+"@babel/helper-annotate-as-pure@^7.24.7":
   version "7.24.7"
   resolved "https://registry.yarnpkg.com/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.24.7.tgz#5373c7bc8366b12a033b4be1ac13a206c6656aab"
   integrity sha512-BaDeOonYvhdKw+JoMVkAixAAJzG2jVPIwWoKBPdYuY9b452e2rPuI9QPYh3KpofZ3pW2akOmwZLOiOsHMiqRAg==
@@ -233,7 +233,7 @@
     lru-cache "^5.1.1"
     semver "^6.3.1"
 
-"@babel/helper-create-class-features-plugin@^7.21.0", "@babel/helper-create-class-features-plugin@^7.24.7", "@babel/helper-create-class-features-plugin@^7.25.0", "@babel/helper-create-class-features-plugin@^7.25.4":
+"@babel/helper-create-class-features-plugin@^7.24.7", "@babel/helper-create-class-features-plugin@^7.25.0", "@babel/helper-create-class-features-plugin@^7.25.4":
   version "7.25.4"
   resolved "https://registry.yarnpkg.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.25.4.tgz#57eaf1af38be4224a9d9dd01ddde05b741f50e14"
   integrity sha512-ro/bFs3/84MDgDmMwbcHgDa8/E6J3QKNTk4xJJnVeFtGE+tL0K26E3pNxhYz2b67fJpt7Aphw5XcploKXuCvCQ==
@@ -299,7 +299,7 @@
   dependencies:
     "@babel/types" "^7.24.7"
 
-"@babel/helper-plugin-utils@^7.0.0", "@babel/helper-plugin-utils@^7.10.4", "@babel/helper-plugin-utils@^7.12.13", "@babel/helper-plugin-utils@^7.14.5", "@babel/helper-plugin-utils@^7.18.6", "@babel/helper-plugin-utils@^7.20.2", "@babel/helper-plugin-utils@^7.22.5", "@babel/helper-plugin-utils@^7.24.7", "@babel/helper-plugin-utils@^7.24.8", "@babel/helper-plugin-utils@^7.8.0", "@babel/helper-plugin-utils@^7.8.3":
+"@babel/helper-plugin-utils@^7.0.0", "@babel/helper-plugin-utils@^7.10.4", "@babel/helper-plugin-utils@^7.12.13", "@babel/helper-plugin-utils@^7.14.5", "@babel/helper-plugin-utils@^7.18.6", "@babel/helper-plugin-utils@^7.22.5", "@babel/helper-plugin-utils@^7.24.7", "@babel/helper-plugin-utils@^7.24.8", "@babel/helper-plugin-utils@^7.8.0", "@babel/helper-plugin-utils@^7.8.3":
   version "7.24.8"
   resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.24.8.tgz#94ee67e8ec0e5d44ea7baeb51e571bd26af07878"
   integrity sha512-FFWx5142D8h2Mgr/iPVGH5G7w6jDn4jUSpZTyDnQO0Yn7Ks2Kuz6Pci8H6MPCoUJegd/UZQ3tAvfLCxQSnWWwg==
@@ -430,16 +430,6 @@
   version "7.21.0-placeholder-for-preset-env.2"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-private-property-in-object/-/plugin-proposal-private-property-in-object-7.21.0-placeholder-for-preset-env.2.tgz#7844f9289546efa9febac2de4cfe358a050bd703"
   integrity sha512-SOSkfJDddaM7mak6cPEpswyTRnuRltl429hMraQEglW+OkovnCzsiszTmsrlY//qLFjCpQDFRvjdm2wA5pPm9w==
-
-"@babel/plugin-proposal-private-property-in-object@^7.21.11":
-  version "7.21.11"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-private-property-in-object/-/plugin-proposal-private-property-in-object-7.21.11.tgz#69d597086b6760c4126525cfa154f34631ff272c"
-  integrity sha512-0QZ8qP/3RLDVBwBFoWAwCtgcDZJVwA5LUJRZU8x2YFfKNuFq161wK3cuGrALu5yiPu+vzwTAg/sMWVNeWeNyaw==
-  dependencies:
-    "@babel/helper-annotate-as-pure" "^7.18.6"
-    "@babel/helper-create-class-features-plugin" "^7.21.0"
-    "@babel/helper-plugin-utils" "^7.20.2"
-    "@babel/plugin-syntax-private-property-in-object" "^7.14.5"
 
 "@babel/plugin-syntax-async-generators@^7.8.4":
   version "7.8.4"
@@ -1179,6 +1169,11 @@
   dependencies:
     regenerator-runtime "^0.14.0"
 
+"@babel/runtime@^7.24.7":
+  version "7.29.10"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.29.10.tgz#fe9920782f7ee34029165ac6f272984917a1641b"
+  integrity sha512-NpugTzbKgGrNe45Ui32cN8vCFFMxVtP/9rtfwv0nP5FRDAjvYBxJcLVpYA9mr1jxP6cnIT7x9LUzuDTbWYYNRA==
+
 "@babel/template@^7.24.7", "@babel/template@^7.25.0":
   version "7.25.0"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.25.0.tgz#e733dc3134b4fede528c15bc95e89cb98c52592a"
@@ -1675,6 +1670,20 @@
   integrity sha512-foQZKJig7Ob0BMAYBfcJk8d77QtOe7Wo4ox7ff1lQYoNNAb6jwcY1ncdoy2e9wQZzvNy7ODZCYJkK8kzmcAnAg==
   dependencies:
     "@hapi/hoek" "^9.0.0"
+
+"@iframe-resizer/core@5.1.5":
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/@iframe-resizer/core/-/core-5.1.5.tgz#cea8b91df13fb5b87e5456bc684ca18fdd7fe11b"
+  integrity sha512-uu0Ptk+R7vYY7R9HFsc5R4+p68rgGxrsWIq2sK9oanJPBtQ2P9pMYoRseM8F4AfOONHOeHxGByWeBmw7LTXmdA==
+
+"@iframe-resizer/react@5.1.5":
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/@iframe-resizer/react/-/react-5.1.5.tgz#882831485d821361b8c501cdc5206c1ba45b0bc7"
+  integrity sha512-klGfad00ZiVHIplWYJ04ACp8vU6xa5ujLSWEJOFcc8SqQyJv7T0UtxuUGPiEXvSGeaP5HgFvYFzua7YOw/blIg==
+  dependencies:
+    "@babel/runtime" "^7.24.7"
+    "@iframe-resizer/core" "5.1.5"
+    warning "^4.0.3"
 
 "@jest/schemas@^29.6.3":
   version "29.6.3"
@@ -4879,19 +4888,12 @@ icss-utils@^5.0.0, icss-utils@^5.1.0:
   resolved "https://registry.yarnpkg.com/icss-utils/-/icss-utils-5.1.0.tgz#c6be6858abd013d768e98366ae47e25d5887b1ae"
   integrity sha512-soFhflCVWLfRNOPU3iv5Z9VUdT44xFRbzjLsEzSr5AQmgqPMTHdU3PMT1Cf1ssx8fLNJDA1juftYl+PUcv3MqA==
 
-iframe-resizer-react@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/iframe-resizer-react/-/iframe-resizer-react-1.1.1.tgz#bb6482e420c612206298892cbbc0182eb76cbf9f"
-  integrity sha512-s0EUUekv58FGbuWBanSCVsEKmmyBdWmdwQ8qx8g04jlNlCR7pNuDz7fw7zo5T5sdssl6yRMDl97NBdwD1gfDyQ==
+iframe-resizer-react@^5.1.5:
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/iframe-resizer-react/-/iframe-resizer-react-5.1.5.tgz#e4cc48e216f2a9fb81813a3816cefa0e06670498"
+  integrity sha512-R7kJgzniX9S16Lc9QWUyc+NYXftQnT0agdroFISojxC+/ARJa+ZhrcSns/3xjzQnsY+nk5TdkafkrRNIpr3Big==
   dependencies:
-    "@babel/plugin-proposal-private-property-in-object" "^7.21.11"
-    iframe-resizer "^4.4.4"
-    warning "^4.0.3"
-
-iframe-resizer@^4.4.4:
-  version "4.4.5"
-  resolved "https://registry.yarnpkg.com/iframe-resizer/-/iframe-resizer-4.4.5.tgz#f5048636e7f2fb5d9a09cc2ae78eb2da55ad555c"
-  integrity sha512-U8bCywf/Gh07O69RXo6dXAzTtODQrxaHGHRI7Nt4ipXsuq6EMxVsOP/jjaP43YtXz/ibESS0uSVDN3sOGCzSmw==
+    "@iframe-resizer/react" "5.1.5"
 
 ignore@^5.2.0, ignore@^5.2.4:
   version "5.3.2"
