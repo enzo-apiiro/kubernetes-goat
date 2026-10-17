@@ -19,7 +19,7 @@
     "@docusaurus/plugin-client-redirects": "^3.5.2",
     "@docusaurus/plugin-google-tag-manager": "^3.5.2",
     "@docusaurus/preset-classic": "^3.5.2",
-    "@mdx-js/react": "^3.0.1",
+    "@mdx-js/react": "^3.1.1",
     "classnames": "^2.5.1",
     "clsx": "^1.1.1",
     "docusaurus-lunr-search": "^2.1.15",
